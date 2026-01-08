@@ -1,0 +1,21 @@
+xprintf("<format string>", val1, val2);
+
+prints the format string with any format specifiers replaced with this
+corresponding formatted value.
+
+%d is for decimal, %c is character, %u unsigned decimal numbers
+%s is for string, strings for c-strings
+
+C strings are sequences of char (1 byte each)
+
+followed by a byte, and its called a null terminator -> "\0"
+
+C strings are often created as char arrays 
+
+char msg[] = "Hello World";
+char msg2[] = {'H', 'e', 'l','l','o','W','o','r','l','d','!', '\0'};
+
+strlen - returns # of characters up to (not including) null terminator
+
+
+
