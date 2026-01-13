@@ -1,0 +1,4 @@
+%c -> character
+%hhu -> unsigned int (0-255)
+%d -> decimal
+%hhb -> this would return in binary format
